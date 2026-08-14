@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAXSIZE 100
+#define MAXSIZE 200
 //创建线性表
 typedef struct{
     int data[MAXSIZE];
