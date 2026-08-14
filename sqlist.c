@@ -16,7 +16,7 @@ int ListInsert(Sqlist*L,int i,int val){
     if(i>length=MAXSIZE)
     return 0;
 for(int j=L->length;j>=i;j--){
-    L-data[j]=L->data[j-1];
+    L->data[j]=L->data[j-1];
 }
 L->data[j-1]=val;
 L->length++;
